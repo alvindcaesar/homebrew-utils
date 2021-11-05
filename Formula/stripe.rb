@@ -19,7 +19,7 @@ class Stripe < Formula
     end
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://github.com/stripe/stripe-cli/releases/download/v1.7.6/stripe_1.7.6_linux_x86_64.tar.gz"
-    sha256 "4a82bd2d5c38260cefb0837d04016ba3c7f56949ff788d4090152616f4aa45b4"
+    sha256 "a64343835642a1a667f6c4506271ec0e7ffa6d7e974db57f5503d7459b4f57d7"
   end
 
   def install
