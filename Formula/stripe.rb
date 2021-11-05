@@ -7,18 +7,18 @@
 class Stripe < Formula
   desc "Stripe CLI utility"
   homepage "https://stripe.com"
-  version "1.7.0"
+  version "1.7.6"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/stripe/stripe-cli/releases/download/v1.7.0/stripe_1.7.0_mac-os_x86_64.tar.gz"
-      sha256 "e59ad1765eb630ce7a6949550afbb4a203d6198b226425ac57400d6ad98a6c33"
+      url "https://github.com/stripe/stripe-cli/releases/download/v1.7.6/stripe_1.7.6_mac-os_x86_64.tar.gz"
+      sha256 "ea478e7cf984c27567530772ae684fed07b17b7b629df0beeb9444fa7c8f66da"
     elsif Hardware::CPU.arm?
-      url "https://github.com/stripe/stripe-cli/releases/download/v1.7.0/stripe_1.7.0_mac-os_arm64.tar.gz"
-      sha256 "17983bca1d395d12a13db1852fe5947da42f718c314d830943221bbd3d839a1a"
+      url "https://github.com/stripe/stripe-cli/releases/download/v1.7.6/stripe_1.7.6_mac-os_arm64.tar.gz"
+      sha256 "d3d3ae7d1dedb55a87fc0672be79f414c48a704ae2f95ed452057dbf397574b7"
     end
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/stripe/stripe-cli/releases/download/v1.7.0/stripe_1.7.0_linux_x86_64.tar.gz"
+    url "https://github.com/stripe/stripe-cli/releases/download/v1.7.6/stripe_1.7.6_linux_x86_64.tar.gz"
     sha256 "4a82bd2d5c38260cefb0837d04016ba3c7f56949ff788d4090152616f4aa45b4"
   end
 
